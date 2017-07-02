@@ -1,0 +1,859 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Open Sans', 'Arimo', sans-serif;
+    background-color: #FAFAFA;
+    color: #004A7C;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Arimo', sans-serif;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+a:link{
+    text-decoration: none;
+    color: #004A7C;
+}
+a:visited{
+    text-decoration: none;
+    /*color: #4BA2AC;*/
+}
+
+a:hover, a:active{
+    text-decoration: underline;
+    color: #004A7C;
+}
+
+.flex-container{
+    margin: auto
+    min-width: 768px;
+}
+
+/* ---------------------------
+   Business Logo & Nav Bar
+------------------------------*/
+.logo{
+    display: flex;
+    padding-left: 2rem;
+    height: 5.33rem;
+    justify-content: center;
+}
+
+.logo img{
+    margin: auto;
+    height: 4rem;
+    width: auto;
+}
+
+.business{
+    display: flex;
+    margin: auto;
+    font-size: 2rem;
+    padding: 0 3rem 0 0.25rem;
+    font-family: Helvetica, 'Open Sans', 'Arimo', sans-serif;
+}
+
+.nav-options{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-items{
+    font-size: 1.25rem;
+    padding-right: 1.5rem;
+}
+
+#bus-name{
+    color: darkgray;
+}
+
+/* ----------------------------
+   Banner Styling
+-------------------------------*/
+.banner{
+    display: flex;
+    position: relative;
+    background-color: #E8F1F5;
+}
+
+.banner-image{
+    display: flex;
+    margin: 0;
+    width: 60%;
+    height: auto;
+    padding: 2rem 2.5rem 2rem 1.5rem;
+}
+
+.banner-text{
+    display: block;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8rem 2rem;
+    line-height: 1.5;
+    width: 25%;
+}
+
+.banner-text h3{
+    padding-top: 2rem;
+}
+
+.banner-btn{
+    display: flex;
+    padding: 1.5rem;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-family: Helvetica;
+    font-size: 1.5rem;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 2.5rem;
+}
+/* ---------------------------
+   Campus Information Styling
+------------------------------*/
+.main-text{
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    display: flex;
+    line-height: 1.5;
+    padding-bottom: 4rem;
+}
+
+.campus-information{
+    margin: 0;
+    width: 60%;
+    padding: 2rem 1.5rem;
+}
+
+.campus-information h2{
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.campus-information p{
+    font-size: 1rem;
+    font-weight: 580;
+    padding-top: 2rem;
+}
+
+.main-section{
+    display: flex;
+    margin: 0;
+    padding: 2rem 2.5rem 2rem 1.5rem
+}
+
+.main-image{
+    display: flex;
+    position: relative;
+    margin: 0;
+    width: 100%;
+}
+
+.other-campus-info{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+    width: 35%;
+    height: auto;
+    padding: 2rem 0 2rem 1rem;
+}
+
+.campus-images{
+    display: flex;
+    margin:0;
+    width: auto;
+    max-width: 100%;
+    /*padding: 1rem;*/
+
+}
+
+.orientation-info{
+    display: flex;
+    padding: 0 1rem 1rem 1rem;
+    max-width: 100%;
+    height: auto;
+    line-height: 1.5;
+}
+
+.our-campus, .lecture-info{
+    display: flex;
+    padding: 1rem;
+    max-width: 100%;
+    height: auto;
+    line-height: 1.5;
+}
+
+.info-image{
+    display: block;
+    max-width: 100%;
+}
+
+.campus-bio{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    /*padding-left: 1.5rem;*/
+    padding: 0 1rem 1rem 1rem;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: left;
+    line-height: 2.25;
+    width: 100%;
+}
+
+/* -------------------
+   Learning Section
+   -------------------*/
+.learning-title{
+    display: flex;
+    position: relative;
+    padding: 2rem;
+    justify-content: center;
+    background-color: #E8F1F5;
+}
+
+.learning-courses{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 2rem;
+    /*width: auto;*/
+    background-color: #E8F1F5;;
+}
+
+.courses{
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    width: 30%;
+}
+
+.course-images{
+    display: flex;
+}
+
+.course-detail{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: white;
+    text-align: left;
+    padding: 1rem 1rem 1.5rem 1rem;
+    line-height: 1.5;
+    height: 15%;
+}
+
+.course-detail h3{
+    padding: 0.5rem 0;
+}
+
+.course-detail span{
+    /*padding-top: 13.75rem;*/
+    padding: 0.5rem 0;
+    flex-wrap: wrap;
+}
+
+.course-images img{
+    max-width: 100%;
+    max-height: auto;
+}
+
+.course-title{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.course-list{
+    display: flex;
+    padding-top: 13.75rem;
+    padding-bottom: 1.5rem;
+}
+
+/* -----------------
+   Thesis Styling
+   -----------------*/
+.thesis-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.thesis-title{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.thesis-video{
+    /*display: flex;*/
+    position: relative;
+    padding: 0 2.5rem 1.5rem 0;
+    width: 60%;
+}
+
+#video{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    padding: 0 2rem 2rem 1.5rem;
+}
+
+.thesis-sub-section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 40%;
+    height: auto;
+}
+
+.thesis-video h3{
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0 1.5rem 1rem 1.5rem;
+    line-height: 1.5;
+}
+
+.thesis-video .text{
+    display: flex;
+    padding-left: 1.5rem;
+    line-height: 1.5;
+}
+
+.fisma{
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem 1rem 1rem;
+}
+
+/*.fisma h3{
+    display: flex;
+    padding-left: 1rem;
+}*/
+
+.thesis-images{
+    display: flex;
+    margin: 0;
+    padding: 1rem;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#thesis-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    line-height: 2.5;
+}
+
+/* -----------
+   Footer
+   -----------*/
+footer{
+    display: flex;
+    position: relative;
+    margin: 0;
+}
+
+.copyright{
+   display: flex;
+   position: relative;
+   margin: 0;
+   text-align: left;
+   width: 80%;
+   padding: 0.5rem 1rem 1rem 1.5rem;
+}
+
+.privacy{
+   display: flex;
+   position: relative;
+   margin: auto;
+   justify-content: flex-end;
+   align-items: center;
+   text-align: right;
+   width: 20%;
+   padding: 0.5rem 3rem 1rem 0;
+}
+
+/* -----------------------------------------
+  Display None for mobile specific classes
+  ------------------------------------------*/
+ .mobile-nav, .mobile-image{
+     display: none;
+ }
+
+
+/* ---------------------
+   Mobile Styling
+   --------------------- */
+@media only screen and (min-width: 320px) and (max-width: 480px)
+and (orientation: portrait){
+
+    /* Element Not Displayed */
+    .logo, .business, .flex-container .nav-options, .nav-items,
+    .campus-information, .main-image, .campus-images .info-image, .course-images, .course-title, .course-list, .course-detail .text,
+    .thesis-section h3, .thesis-section .text,
+    .thesis-sub-section, hr, .terms-conds p, .privacy{
+        display: none;
+    }
+
+    body{
+        font-family: 'Open Sans', 'Arimo', sans-serif;
+        background-color: #FAFAFA;
+        color: #004A7C;
+        overflow-x: hidden;
+    }
+
+    nav{
+        display: block;
+        margin: 0;
+    }
+
+    h1{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    h2{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    h3{
+        font-size: 1.15rem;
+        font-weight: bold;
+    }
+    h4{
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 0.9rem;
+    }
+
+    .flex-container{
+        margin: 0;
+        /*width: auto;
+        max-width: 100%;*/
+    }
+
+/* Banner Mobile Styling */
+    .mobile-nav{
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+        height: 4rem;
+        width: 100%;
+    }
+
+    .mobile-nav img{
+        display: flex;
+        margin: auto;
+        height: 2.5rem;
+        width: auto;
+
+    }
+
+/* Mobile Banner */
+    .banner{
+        display: block;
+        position: relative;
+        background-color: #E8F1F5;
+        width: 100%;
+    }
+
+    .banner-image{
+        display: inline-block;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+		height: auto;
+    }
+
+    .banner img{
+        display: block;
+        margin: 0;
+        /*height: 180px;*/
+        max-width: 100%;
+        height: auto;
+    }
+
+    .banner-btn{
+        padding-bottom: 2rem;
+        font-size: 1.25rem;
+        width: 80%;
+    }
+
+    .banner-text{
+        display: block;
+        position: relative;
+        margin: 0;
+        flex-wrap: wrap;
+        width: auto;
+        max-width: 100%;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    .banner-text h3{
+        margin: 0;
+        padding: 2rem 0 1.5rem 0;
+    }
+
+    .button{
+        margin: 0;
+        padding: 0;
+    }
+
+/* Campus Mobile Styling */
+    .other-campus-info{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: 0;
+        padding: 1rem 0 1rem 0;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .orientation-info, .our-campus, .lecture-info{
+        display: flex;
+        position: relative;
+        width: auto;
+        max-width: 100%;
+        padding: 0;
+        /*padding: 0 1rem 1rem 1rem;*/
+    }
+
+    .campus-images{
+        display: flex;
+        flex-direction: column;
+        margin:0;
+        padding: 0;
+    }
+
+    .campus-images .mobile-image{
+        display: flex;
+        position: relative;
+        margin: 0;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        padding: 0 1rem 0 1rem;
+    }
+
+    /*.mobile-image{
+        padding: 0 1rem 0 1rem;
+    }*/
+
+    .campus-bio{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+    }
+
+/* Learning Mobile Styling */
+    .learning-title{
+        display: flex;
+        position: relative;
+        width: 100%;
+        padding: 2rem 0 1rem 0;
+        background-color: #E8F1F5;
+    }
+
+    .learning-courses{
+        display: block;
+        background-color: #E8F1F5;
+        padding: 0 1rem 2rem 1rem;
+    }
+
+    .course-detail{
+        display: block;
+        position: relative;
+        padding: 1rem 1rem 1rem;
+        height: auto;
+        text-align: center;
+    }
+    .courses{
+        margin: 0;
+        width: auto;
+        max-width: 100%;
+        padding-top: 0;
+        padding-right: 0;
+    }
+
+    .thesis-section{
+        padding: 0;
+    }
+
+    .thesis-video{
+        display: block;
+        margin: 0;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    #video{
+        padding: 0 0 1.5rem 0;
+    }
+
+    footer{
+        display: flex;
+        position: relative;
+        margin: 0;
+    }
+
+    .copyright{
+       display: flex;
+       position: relative;
+       margin: 0;
+       text-align: left;
+       width: 80%;
+       padding: 0.5rem 1rem 1rem 1.5rem;
+    }
+
+
+ }
+
+
+@media only screen and (min-width: 490px) and (max-width: 768px)
+and (orientation: portrait){
+    /* Element Not Displayed */
+    .logo, .business, .flex-container .nav-options, .nav-items,
+    .campus-information, .main-image, .campus-images .info-image, .course-images, .course-title, .course-list, .course-detail .text,
+    .thesis-section h3, .thesis-section .text,
+    .thesis-sub-section, hr, .terms-conds p, .privacy{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+        height: 4rem;
+        width: 100%;
+    }
+
+    .mobile-nav img{
+        display: flex;
+        margin: auto;
+        height: 2.85rem;
+        width: auto;
+
+    }
+
+/* Tablet Banner */
+    .banner{
+        display: block;
+        position: relative;
+        background-color: #E8F1F5;
+        width: 100%;
+    }
+
+    .banner-image{
+        display: inline-block;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .banner img{
+        display: block;
+        margin: 0;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .banner-btn{
+        padding-bottom: 2rem;
+        width: 60%;
+    }
+
+    .banner-text{
+        display: block;
+        position: relative;
+        margin: 0;
+        flex-wrap: wrap;
+        width: auto;
+        max-width: 100%;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    .banner-text h3{
+        margin: 0;
+        padding: 2rem 0 1.5rem 0;
+    }
+
+    .button{
+        margin: 0;
+        padding: 0;
+    }
+
+/* Campus Mobile Styling */
+    .other-campus-info{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: 0;
+        padding: 1rem 0 1rem 0;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .orientation-info, .our-campus, .lecture-info{
+        display: flex;
+        position: relative;
+        width: auto;
+        max-width: 100%;
+        padding: 0;
+        /*padding: 0 1rem 1rem 1rem;*/
+    }
+
+    .campus-images{
+        display: flex;
+        flex-direction: column;
+        margin:0;
+        padding: 0;
+    }
+
+    .campus-images .mobile-image{
+        display: flex;
+        /*position: relative;*/
+        margin: 0;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        padding: 0 1rem 0 5rem;
+    }
+
+    .campus-bio{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .campus-bio h3, p{
+        padding-left: 4rem;
+    }
+
+
+/* Learning Mobile Styling */
+    .learning-title{
+        display: flex;
+        position: relative;
+        width: 100%;
+        padding: 2rem 0 1rem 0;
+        background-color: #E8F1F5;
+    }
+
+    .learning-courses{
+        display: block;
+        background-color: #E8F1F5;
+        padding: 0 1rem 2rem 1rem;
+    }
+
+    .course-detail{
+        display: block;
+        position: relative;
+        padding: 1rem 1rem 1rem;
+        height: auto;
+        text-align: center;
+    }
+    .courses{
+        margin: 0;
+        width: auto;
+        max-width: 100%;
+        padding-top: 0;
+        padding-right: 0;
+    }
+
+    .thesis-section{
+        padding: 0;
+    }
+
+    .thesis-video{
+        display: block;
+        margin: 0;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    #video{
+        padding: 0 0 1.5rem 0;
+        width: 100%;
+    }
+
+    footer{
+        display: flex;
+        position: relative;
+        margin: 0;
+    }
+
+    .copyright{
+       display: flex;
+       position: relative;
+       margin: 0;
+       text-align: left;
+       width: 80%;
+       padding: 0.5rem 1rem 1rem 1.5rem;
+    }
+
+
+
+}
