@@ -51,7 +51,7 @@ a:hover, a:active{
 }
 
 .flex-container{
-    margin: auto
+    margin: auto;
     min-width: 768px;
 }
 
@@ -169,7 +169,7 @@ a:hover, a:active{
 
 .campus-information p{
     font-size: 1rem;
-    font-weight: 580;
+    font-weight: bold;
     padding-top: 2rem;
 }
 
@@ -297,7 +297,7 @@ a:hover, a:active{
 
 .course-images img{
     max-width: 100%;
-    max-height: auto;
+    height: auto;
 }
 
 .course-title{
@@ -383,7 +383,7 @@ a:hover, a:active{
     max-height: 100%;
 }
 
-#thesis-text{
+.thesis-text{
     display: flex;
     flex-direction: column;
     justify-content: center;
